@@ -78,6 +78,6 @@ function clickBtn3(){
 		start.style.color = "black";
 		timer.textContent = "00:00.00"
 		seconds = 0;
-		milliSeconds = 0;
 		minute = 0;
+		milliSeconds = 0;
 		}
