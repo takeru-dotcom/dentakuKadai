@@ -36,7 +36,7 @@ function get_calc(btn) {
          document.dentaku.display.value = document.dentaku.display.value.replace(/.$/,"÷");
         } else if(document.dentaku.display.value.slice(-1) === "×"){
          document.dentaku.display.value = document.dentaku.display.value.replace(/.$/,"÷");
-        } else if(document.dentaku.display.value.slice(-1) === "+"){
+        } else if(document.dentaku.display.value.slice(-1) === "-"){
          document.dentaku.display.value = document.dentaku.display.value.replace(/.$/,"÷");
         } else if (btn.value === "÷"){
          document.dentaku.display.value += btn.value;
@@ -65,7 +65,7 @@ function get_calc(btn) {
         b5.disabled = false;
         b6.disabled = true;
          if (document.dentaku.display.value.slice(-1) === "+"){
-         document.dentaku.display.value = document.dentaku.display.value.replace(/.$/, "-");
+         document.dentaku.display.value = document.dentaku.display.value.replace(/.$/,"-");
         } else if(document.dentaku.display.value.slice(-1) === "×"){
          document.dentaku.display.value = document.dentaku.display.value.replace(/.$/,"-");
         } else if(document.dentaku.display.value.slice(-1) === "÷"){
