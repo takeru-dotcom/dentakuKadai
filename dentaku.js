@@ -12,6 +12,7 @@ function change(zenkaku) {
   return result;
 }
 
+
 function get_calc(btn) {
   if(btn.value === "=") {
         document.dentaku.display.value = eval(change(document.dentaku.display.value));
