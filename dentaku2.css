@@ -1,0 +1,101 @@
+.background{
+  background-color: black;
+  padding-top: 20px;
+  height:290px;
+  max-width: 280px;
+}
+
+.display{
+  width: 192px;
+  background-color: #696969;
+  color: white;
+  margin-left: 40px;
+  text-align: right;
+}
+
+.Button{
+  width:40px;
+  background-color: #d3d3d3;
+  text-align: center;
+  margin-right: 8px;
+  margin-left:0;
+  line-height:30px;
+}
+
+.Button:hover{
+    opacity: 0.6;
+  }
+  
+.Button:active {
+  opacity: 0.3;
+  }
+  
+.Button{
+  transition: opacity 0s;
+}
+
+.ZeroButton{
+  width:93px;
+  background-color: #a9a9a9;
+  text-align: center;
+  margin-right: 8px;
+  line-height:30px;
+}
+
+.ZeroButton:hover{
+    opacity: 0.6;
+  }
+  
+.ZeroButton:active {
+  opacity: 0.3;
+  }
+  
+.ZeroButton{
+  transition: opacity 0s;
+}
+
+.NumberButton{
+  width:40px;
+  background-color: #a9a9a9;
+  text-align: center;
+  margin-right: 8px;
+  line-height:30px;
+}
+
+.NumberButton:hover{
+    opacity: 0.6;
+  }
+  
+.NumberButton:active {
+  opacity: 0.3;
+  }
+  
+.NumberButton{
+  transition: opacity 0s;
+}
+
+.FourArithmeticOperations{
+  background-color: orange;
+  color: white;
+  width: 40px;
+  text-align: center;
+  line-height: 30px
+}
+
+.FourArithmeticOperations:hover{
+    opacity: 0.6;
+  }
+  
+.FourArithmeticOperations:active {
+  opacity: 0.3;
+  }
+  
+.FourArithmeticOperations{
+  transition: opacity 0s;
+}
+
+li{
+  list-style-type: none;
+  display: inline-block;
+  text-align: left;
+}
